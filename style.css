@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  color: aliceblue;
+  background-color: blue;
+  padding: 0 40px;
+  justify-content: space-between;
+    align-items: center;
+
+
+}
+.nav a{
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.dis{
+  background-image:  url(https://sl.bing.net/boxTHkFWHcq) ;
+  background-color: dodgerblue;
+  color: aliceblue;
+
+}
+.dis h1{
+  color: aqua;
+}
+.dis button{
+  background-color: dodgerblue;
+  color: aliceblue;
+  box-shadow: 200px;
+}
+.cards{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+}
+svg{
+  height: 2rem;
+}
+.card1 a{
+  color: blue;
+}
+.card2 a{
+  color: purple;
+}
+.card3 a{
+  color: green;
+}
+.card4 a{
+  color: purple;
+}
+
+.blog{
+  background: linear-gradient(120deg, #c973FF,#AEBAF8);
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+.blogss{
+    display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.blogss span{
+  color: blue;
+}
+.blogss h2{
+  color: darkblue;
+}
+.blogss p{
+  color: gray;
+}
+.about{
+    background: linear-gradient(120deg, #c973FF,#AEBAF8);
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+.aboutss{
+      display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border: 5px;
+}
+.aboutss h1{
+  text-align: center;
+}
+.login{
+  justify-content: center;
+  box-shadow: 200px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+
+}
+.login button{
+  width: 50%;
+  height: 40px;
+  background-color: blue;
+  color: aliceblue;
+
+}
+.login-card{
+  background-color: aliceblue;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+.login-card h2{
+  margin-bottom: 10px;
+  color: #333;
+}
+.login-card p{
+  color: #666;
+  margin-bottom: 250px;
+  font-size: 14px;
+}
+.login-card a{
+  color: black;
+}
+.booking-header{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.booking-header h2{
+  color: #0056b3;
+  margin-bottom: 8px;
+}
+.booking-header p{
+  color: #666;
+  font-size: 14px;
+}
+.form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.input-group h2{
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 8px;
+}
+.input-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.input-group label{
+  font-size: 13px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 6px;
+}
+.input-group input,
+.input-group select,
+.input-group textarea {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: border-color 0.3s;
+
+}
+@media screen (max-width: 768px){
+  .form{
+    grid-templet-columns: 1fr;
+  };
+  
+}
